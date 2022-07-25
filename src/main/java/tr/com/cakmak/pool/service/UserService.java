@@ -17,7 +17,6 @@ public class UserService {
     public Boolean saveUser(UserRequestDto userRequestDto){
         Users users=new Users();
         users.setName(userRequestDto.getName());
-        users.setSurname(userRequestDto.getSurname());
         users.setEmail(userRequestDto.getEmail());
         users.setPhone(userRequestDto.getPhone());
         users.setUserName(userRequestDto.getUserName());
